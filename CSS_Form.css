@@ -1,0 +1,21 @@
+body {
+    background-color: ivory;
+}
+
+fieldset {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid 5px grey;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: khaki;
+}
+
+.labelField {
+    font-weight: bold;
+    padding-right: 20px;
+}

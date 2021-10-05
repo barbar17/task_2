@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pendaftaran Perpustakaan</title>
+        <link rel="stylesheet" href="CSS_Form.css">
+    </head>
+    <body>
+        <form method="GET" action="Detail_Inforamasi.html">
+            <fieldset>
+                <legend>PENDAFTARAN AKUN PERPUSTAKAAN</legend>
+                <table>
+                    <tr>
+                        <td class="labelField">NIK/NIP</td>
+                        <td><input type="text" name="nik" placeholder="Masukan NIK Anda"></td>
+                    </tr>
+                    <tr>
+                        <td class="labelField">Nama</td>
+                        <td><input type="text" name="nama" placeholder="Masukan Nama Anda"></td>
+                    </tr>
+                    <tr>
+                        <td class="labelField">Jenis Kelamin</td>
+                        <td>
+                            <input type="radio" name="JK" id="pria"> <label for="pria">Pria</label>
+                            <input type="radio" name="JK" id="wanita"> <label for="wanita">Wanita</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelField">Tempat, Tanggal Lahir</td>
+                        <td>
+                            <input type="text" name="tempatLahir" placeholder="Tempat Lahir">
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelField">Alamat Lengkap</td>
+                        <td><textarea name="alamat" cols="30" rows="2" placeholder="Masukan Alamat Lengkap Anda"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="labelField">E-mail</td>
+                        <td><input type="email" name="email"></td>
+                    </tr> 
+                    <tr>
+                        <td class="labelField">Nomor HP</td>
+                        <td><input type="text" name="noHP"></td>
+                    </tr>
+                    <tr>
+                        <td class="labelField">Jenis Anggota</td>
+                        <td>
+                            <select name="JA">
+                                <option value="1">MAHASISWA</option>
+                                <option value="2">DOSEN</option>
+                                <option value="3">KARYAWAN</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="labelField">Password</td>
+                        <td><input type="password" name="pswd"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="labelField">
+                            Saya telah mengisi data dengan benar
+                            <input type="checkbox" name="accept">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
